@@ -80,7 +80,7 @@ LunaExplorer/
 
 ---
 
-### 🪄 Roadmap
+## 🪄 Roadmap
 - [ ] XP Luna theme UI
 - [ ] Functional tab system
 - [ ] Address/search bar
@@ -99,7 +99,7 @@ If you’d like to suggest a feature or report a bug, open an issue
 
 ---
 
-### ⚖️ License
+## ⚖️ License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details
 
@@ -110,5 +110,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - Inspired by Microsoft’s Windows XP Luna Theme
 - Built with ❤️ in Python
 - Created by Grandalfwise, 2025
-
+- README made by ChatGPT
 ---
