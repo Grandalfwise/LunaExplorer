@@ -54,24 +54,12 @@ python browser.py
 
 ---
 
-## 🧩 Tech Stack
-**UI Framework:** PyQt5 / PySide6
-
-**Rendering:** QtWebEngine
-
-**Styling:** Custom QSS (XP-inspired)
-
-**Assets:** Custom icons & bitmaps
-
----
-
 ## 🧱 Project Structure
 
 ```
 LunaExplorer/
-├── main.py              # Entry point
-├── ui/                  # UI files, QSS themes, icons
-├── browser/             # Core browser logic
+├── browser.py           # Main browser file
+├── ui/                  # UI files, Luna themes, icons
 ├── assets/              # XP-style icons and sounds
 ├── README.md
 ├── LICENSE
