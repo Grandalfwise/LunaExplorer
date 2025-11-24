@@ -13,7 +13,7 @@ LunaExplorer isn’t meant to compete with Chrome or Firefox — it’s meant to
 Think glossy buttons, soft blue gradients, and window chrome that actually has personality.
 
 You’ll be able to:
-- 🪩 Browse the web using Python’s `PyQt5` or `PySide6` WebEngine
+- 🪩 Browse the web using Python’s `Tkinter` package
 - 🧩 Customize the UI with authentic XP-era visuals
 - 🪄 Add extensions or experimental “shell” integrations
 - 💾 Save pages locally in a vintage file explorer view
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Run the Browser
 ```bash
-python browser.py
+python luna_browser_core.py
 ```
 
 ---
@@ -58,9 +58,10 @@ python browser.py
 
 ```
 LunaExplorer/
-├── browser.py           # Main browser file
-├── ui/                  # UI files, Luna themes, icons
-├── assets/              # XP-style icons and sounds
+├── luna_browser_core.py    # Main browser file
+├── browser/                # Browser files
+├── ui/                     # UI files, Luna themes, icons
+├── assets/                 # XP-style icons and sounds
 ├── README.md
 ├── LICENSE
 └── requirements.txt
@@ -98,5 +99,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - Inspired by Microsoft’s Windows XP Luna Theme
 - Built with ❤️ in Python
 - Created by Grandalfwise, 2025
-- README made by ChatGPT
+- README made by ChatGPT and edited by Grandalfwise
 ---
