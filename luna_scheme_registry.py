@@ -44,6 +44,7 @@ class SchemeHandlerRegistry:
 
         #events.emit("scheme.before", url.scheme, url)
         result = handler(url, context)
+        print("RESULT: " + result)
         #events.emit("scheme.after", url.scheme, url, result)
         return result
 scheme_registry = SchemeHandlerRegistry()
